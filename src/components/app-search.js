@@ -1,7 +1,11 @@
 import React from "react";
+import './search-panel.css'
 
 const AppSearch = () => {
-    return <input type="text" placeholder='search'/>;
+    return <input
+        className='search-input'
+        type="text"
+        placeholder='search'/>;
 };
 
 export default AppSearch;
